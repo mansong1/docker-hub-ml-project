@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.13.5
 
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
